@@ -1,2 +1,2 @@
 # python-color-detection
-A color detector made in python, opencv2.
+a color detector made in python, opencv2.
