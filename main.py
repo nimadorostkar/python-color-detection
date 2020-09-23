@@ -22,6 +22,7 @@ def main():
     choice = int(input("Your choice: "))
     print('-'*100)
 
+    
     if choice == 1:
         file_name = input("Enter the file's name with extension: ")
         image = cv2.imread(file_name)
@@ -64,5 +65,6 @@ def main():
     else:
         raise Exception("Wrong Choice.")
 
+        
 if __name__ == "__main__":
     main()
